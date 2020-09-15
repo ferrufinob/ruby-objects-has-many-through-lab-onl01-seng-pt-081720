@@ -16,11 +16,11 @@ class Appointment
     @@all
   end
   
-  def patient
-    Patient.all.select do |patient|
-      patient.appointment 
-    end
-  end
+  # def patient
+  #   Patient.all.select do |patient|
+  #     patient.appointment 
+  #   end
+  # end
   
   
   
