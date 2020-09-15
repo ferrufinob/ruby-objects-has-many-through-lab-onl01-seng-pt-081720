@@ -18,12 +18,12 @@ class Doctor
     
 
   def new_appointment(date, patient)
-   Appointment.new(patient, date, self)
+   Appointment.new(patent, date, self)
     
   end
   
   def patients
-    appointment.all map {|appointment| appointment.patient}
+    appointment.all.map {|appointment| appointment.patient}
   end
 
   
