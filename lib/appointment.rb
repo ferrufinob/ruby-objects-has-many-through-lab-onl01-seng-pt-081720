@@ -16,6 +16,7 @@ class Appointment
     @@all
   end
   
+  # never needed this
   # def patient
   #   Patient.all.select do |patient|
   #     patient.appointment 
